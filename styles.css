@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  margin-top: 1rem;
+}
+#left-nav {
+  width: 25%;
+  border-right: 2px solid gray;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+nav ul {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: pointer;
+  height: 60%;
+}
+nav h1 {
+  text-align: center;
+  padding-bottom: 0.6rem;
+}
+.side-nav-list li {
+  border-top: 1px solid gray;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 30px;
+}
+.side-nav-list li a {
+  text-decoration: none;
+  color: unset;
+}
+.side-nav-list li:hover {
+  border-color: blueviolet;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px 0;
+}
+li a:active {
+  color: orangered;
+}
+#document {
+  position: absolute;
+  margin-left: 290px;
+}
+
+.block > *:not(h1) {
+  padding-left: 25px;
+}
+
+.block > ul {
+  margin-left: 60px;
+}
+
+#document p {
+  margin-top: 1rem;
+}
+
+#document ul li {
+  margin-top: 1rem;
+}
+
+.block h1:not(#notpadding) {
+  margin-top: 1rem;
+}
+
+.code {
+  background-color: beige;
+  width: 90%;
+  margin-left: 30px;
+}
+
+ul li li {
+  margin-left: 30px;
+  list-style-type: circle;
+}
